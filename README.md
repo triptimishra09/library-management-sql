@@ -41,6 +41,6 @@ The system contains the following tables:
 * Add triggers for automatic book availability update
 * Connect the database with a web application
 
-## 👩‍💻 Author
+##  Author
 
 Tripti Mishra
