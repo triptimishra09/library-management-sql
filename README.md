@@ -91,6 +91,20 @@ VALUES (1, 1, CURDATE());
 
 ---
 
+## 📸 Sample Output
+
+### View Issued Books
+SELECT m.name, b.title, br.issue_date
+FROM Borrow_Records br
+JOIN Members m ON br.member_id = m.member_id
+JOIN Books b ON br.book_id = b.book_id;
+
+| Name        | Book Title                            | Issue Date |
+| ----------- | ------------------------------------- | ---------- |
+| Amit Sharma | 1984                                  | 2025-03-01 |
+| Riya Patel  | Harry Potter and the Sorcerer's Stone | 2025-03-05 |
+
+
 ## Future Scope
 
 * Fine calculation system
